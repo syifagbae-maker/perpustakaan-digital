@@ -1,16 +1,17 @@
-function showDetail(book){
+function showDetail(book){ 
 
 
-let title = document.getElementById("detail-title");
+let title = document.getElementById("detail-title"); 
 
-let text = document.getElementById("detail-text");
-
-
-
-if(book === "filosofi"){
+let text = document.getElementById("detail-text"); 
 
 
-title.innerHTML = "Filosofi Teras";
+
+
+if(book === "filosofi"){ 
+
+
+title.innerHTML = "Filosofi Teras"; 
 
 
 text.innerHTML = `
@@ -24,9 +25,9 @@ text.innerHTML = `
 
 <b>Tentang Buku:</b><br>
 
-Filosofi Teras merupakan buku yang mengenalkan filosofi Stoikisme
-kepada pembaca modern dengan bahasa yang sederhana dan mudah dipahami.
-Buku ini membahas cara manusia menghadapi emosi negatif, tekanan hidup,
+Filosofi Teras merupakan buku yang mengenalkan filosofi Stoikisme 
+kepada pembaca modern dengan bahasa yang sederhana dan mudah dipahami. 
+Buku ini membahas cara manusia menghadapi emosi negatif, tekanan hidup, 
 dan berbagai permasalahan sehari-hari.
 
 
@@ -45,19 +46,21 @@ dan berbagai permasalahan sehari-hari.
 
 <b>Cocok untuk:</b><br>
 
-Orang yang ingin meningkatkan ketenangan,
+Orang yang ingin meningkatkan ketenangan, 
 mengurangi kecemasan, dan memahami diri sendiri.
 
-`;
+`; 
+
 
 }
 
 
 
-else if(book === "principles"){
+
+else if(book === "principles"){ 
 
 
-title.innerHTML = "Principles";
+title.innerHTML = "Principles"; 
 
 
 text.innerHTML = `
@@ -73,9 +76,9 @@ text.innerHTML = `
 <b>Tentang Buku:</b><br>
 
 
-Principles adalah buku yang berisi kumpulan prinsip kehidupan
-dan pekerjaan dari Ray Dalio, pendiri perusahaan investasi Bridgewater.
-Buku ini menjelaskan bagaimana pengalaman, kesalahan,
+Principles adalah buku yang berisi kumpulan prinsip kehidupan 
+dan pekerjaan dari Ray Dalio, pendiri perusahaan investasi Bridgewater. 
+Buku ini menjelaskan bagaimana pengalaman, kesalahan, 
 dan proses belajar dapat menjadi dasar dalam mengambil keputusan.
 
 
@@ -97,19 +100,20 @@ dan proses belajar dapat menjadi dasar dalam mengambil keputusan.
 
 <b>Cocok untuk:</b><br>
 
-Pemimpin, mahasiswa, pengusaha,
+Pemimpin, mahasiswa, pengusaha, 
 dan siapa saja yang ingin meningkatkan kemampuan berpikir.
 
-`;
+`; 
 
 }
 
 
 
-else{
+
+else if(book === "atomic"){ 
 
 
-title.innerHTML = "Atomic Habits";
+title.innerHTML = "Atomic Habits"; 
 
 
 text.innerHTML = `
@@ -125,9 +129,9 @@ text.innerHTML = `
 <b>Tentang Buku:</b><br>
 
 
-Atomic Habits menjelaskan bagaimana perubahan kecil
-yang dilakukan secara konsisten dapat menghasilkan perubahan besar.
-James Clear memberikan strategi praktis untuk membangun kebiasaan baik
+Atomic Habits menjelaskan bagaimana perubahan kecil 
+yang dilakukan secara konsisten dapat menghasilkan perubahan besar. 
+James Clear memberikan strategi praktis untuk membangun kebiasaan baik 
 dan menghilangkan kebiasaan buruk.
 
 
@@ -149,12 +153,68 @@ dan menghilangkan kebiasaan buruk.
 
 <b>Cocok untuk:</b><br>
 
-Siapa saja yang ingin membangun disiplin,
+Siapa saja yang ingin membangun disiplin, 
 produktivitas, dan perkembangan diri.
 
-`;
+`; 
 
 }
+
+
+
+
+else if(book === "bumi"){
+
+
+title.innerHTML = "Bumi Manusia";
+
+
+text.innerHTML = `
+
+
+<b>Penulis:</b> Pramoedya Ananta Toer<br>
+
+<b>Tahun Terbit:</b> 1980<br>
+
+<b>Kategori:</b> Novel Sejarah Indonesia<br><br>
+
+
+<b>Tentang Buku:</b><br>
+
+
+Bumi Manusia merupakan novel sejarah Indonesia yang 
+menggambarkan kehidupan masyarakat Indonesia pada masa kolonial Belanda. 
+Novel ini menceritakan perjalanan Minke, seorang pemuda pribumi 
+yang berjuang memperoleh pendidikan, kebebasan berpikir, 
+dan menghadapi ketidakadilan sosial pada masa penjajahan.
+
+
+<br><br>
+
+
+<b>Isi Utama:</b><br>
+
+
+• Gambaran kehidupan masyarakat Hindia Belanda.<br>
+
+• Perjuangan pendidikan dan pemikiran modern.<br>
+
+• Konflik sosial antara pribumi dan kolonialisme.<br>
+
+
+<br>
+
+
+<b>Cocok untuk:</b><br>
+
+Pembaca yang tertarik dengan sejarah Indonesia, 
+sastra, perjuangan pendidikan, dan perjalanan bangsa.
+
+`; 
+
+
+}
+
 
 
 
@@ -166,7 +226,7 @@ document.getElementById("popup").style.display="flex";
 
 
 
-function closeDetail(){
+function closeDetail(){ 
 
 
 document.getElementById("popup").style.display="none";

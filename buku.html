@@ -10,216 +10,256 @@
 
 <link rel="stylesheet" href="style.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
-</head>
-
-
-<body class="library-page">
-
-
-<div class="background-shape shape1"></div>
-<div class="background-shape shape2"></div>
-
-
-
-<header class="library-header">
-
-
-<h1>
-📚 Koleksi Buku Pilihan
-</h1>
-
-
-<p>
-Klik buku untuk melihat informasi lengkap
-</p>
-
-
-</header>
-
-
-
-
-
-<section class="book-container">
-
-
-
-<div class="book-card" onclick="showDetail('filosofi')">
-
-
-<div class="book-image">
-
-<img src="images/filosofi-teras.jpg">
-
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">  
+  
+</head>  
+  
+  
+<body class="library-page">  
+  
+  
+<div class="background-shape shape1"></div>  
+<div class="background-shape shape2"></div>  
+  
+  
+  
+<header class="library-header">  
+  
+  
+<h1>  
+📚 Koleksi Buku Pilihan  
+</h1>  
+  
+  
+<p>  
+Klik buku untuk melihat informasi lengkap  
+</p>  
+  
+  
+</header>  
+  
+  
+  
+  
+  
+<section class="book-container">  
+  
+  
+  
+<div class="book-card" onclick="showDetail('filosofi')">  
+  
+  
+<div class="book-image">  
+  
+<img src="images/filosofi-teras.jpg">  
+  
+</div>  
+  
+  
+<div class="book-info">  
+  
+<h2>  
+Filosofi Teras  
+</h2>  
+  
+  
+<p>  
+Henry Manampiring  
+</p>  
+  
+  
+<span>  
+Pengembangan Diri  
+</span>  
+  
+  
+</div>  
+  
+  
+</div>  
+  
+  
+  
+  
+  
+  
+<div class="book-card" onclick="showDetail('principles')">  
+  
+  
+<div class="book-image">  
+  
+<img src="images/principles.jpg">  
+  
+</div>  
+  
+  
+<div class="book-info">  
+  
+  
+<h2>  
+Principles  
+</h2>  
+  
+  
+<p>  
+Ray Dalio  
+</p>  
+  
+  
+<span>  
+Bisnis & Leadership  
+</span>  
+  
+  
+</div>  
+  
+  
+</div>  
+  
+  
+  
+  
+  
+  
+<div class="book-card" onclick="showDetail('atomic')">  
+  
+  
+<div class="book-image">  
+  
+<img src="images/atomic-habits.jpg">  
+  
+</div>  
+  
+  
+<div class="book-info">  
+  
+  
+<h2>  
+Atomic Habits  
+</h2>  
+  
+  
+<p>  
+James Clear  
+</p>  
+  
+  
+<span>  
+Self Improvement  
+</span>  
+  
+  
+</div>  
+  
+  
 </div>
 
 
-<div class="book-info">
+<!-- BUMI MANUSIA TAMBAHAN -->
 
-<h2>
-Filosofi Teras
-</h2>
 
+<div class="book-card" onclick="showDetail('bumi')">  
 
-<p>
-Henry Manampiring
-</p>
 
+<div class="book-image">  
 
-<span>
-Pengembangan Diri
-</span>
 
+<img src="images/bumi-manusia.jpg">  
 
-</div>
 
+</div>  
 
-</div>
 
+<div class="book-info">  
 
 
+<h2>  
+Bumi Manusia  
+</h2>  
 
 
+<p>  
+Pramoedya Ananta Toer  
+</p>  
 
-<div class="book-card" onclick="showDetail('principles')">
 
+<span>  
+Novel Sejarah Indonesia  
+</span>  
 
-<div class="book-image">
 
-<img src="images/principles.jpg">
-
-</div>
-
-
-<div class="book-info">
-
-
-<h2>
-Principles
-</h2>
-
-
-<p>
-Ray Dalio
-</p>
-
-
-<span>
-Bisnis & Leadership
-</span>
-
-
-</div>
-
-
-</div>
-
-
-
-
-
-
-<div class="book-card" onclick="showDetail('atomic')">
-
-
-<div class="book-image">
-
-<img src="images/atomic-habits.jpg">
-
-</div>
-
-
-<div class="book-info">
-
-
-<h2>
-Atomic Habits
-</h2>
-
-
-<p>
-James Clear
-</p>
-
-
-<span>
-Self Improvement
-</span>
-
-
-</div>
-
-
-</div>
-
-
-
-</section>
-
-
-
-
-
-
-
-<!-- DETAIL BUKU -->
-
-
-<div class="popup" id="popup">
-
-
-<div class="popup-content">
-
-
-<button class="close" onclick="closeDetail()">
-×
-</button>
-
-
-<h2 id="detail-title">
-
-</h2>
-
-
-<div id="detail-text">
-
-</div>
-
-
-<button onclick="closeDetail()" class="close-button">
-
-Tutup
-
-</button>
+</div>  
 
 
 </div>
 
-
-</div>
-
-
-
-
-
-<footer>
-
-Dikembangkan oleh 
-<b>
-Syifa Panggabean
-</b>
-
-</footer>
-
-
-
-
-<script src="script.js"></script>
-
-
-</body>
-
-
+  
+  
+  
+</section>  
+  
+  
+  
+  
+  
+  
+  
+<!-- DETAIL BUKU -->  
+  
+  
+<div class="popup" id="popup">  
+  
+  
+<div class="popup-content">  
+  
+  
+<button class="close" onclick="closeDetail()">  
+×  
+</button>  
+  
+  
+<h2 id="detail-title">  
+  
+</h2>  
+  
+  
+<div id="detail-text">  
+  
+</div>  
+  
+  
+<button onclick="closeDetail()" class="close-button">  
+  
+Tutup  
+  
+</button>  
+  
+  
+</div>  
+  
+  
+</div>  
+  
+  
+  
+  
+  
+<footer>  
+  
+Dikembangkan oleh   
+<b>  
+Syifa Panggabean  
+</b>  
+  
+</footer>  
+  
+  
+  
+  
+<script src="script.js"></script>  
+  
+  
+</body>  
+  
+  
 </html>
