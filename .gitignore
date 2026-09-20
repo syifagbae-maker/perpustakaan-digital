@@ -1,0 +1,18 @@
+# XAMPP
+xampp/
+mysql/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Personal files
+Sem 3/
