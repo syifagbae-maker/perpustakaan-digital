@@ -1,28 +1,27 @@
-# 📚 Perpustakaan Digital
+Perpustakaan Digital
 
 Website katalog buku digital yang dibuat menggunakan HTML, CSS, dan JavaScript.
 
-## ✨ Tentang Website
+Tentang Website
 
 Perpustakaan Digital merupakan website sederhana yang menampilkan koleksi buku pilihan lengkap dengan informasi singkat mengenai isi, penulis, dan kategori buku.
-
 Website ini dibuat dengan konsep tampilan modern, minimalis, dan interaktif agar pengguna dapat mengenal buku dengan lebih menarik.
 
 ## 📖 Koleksi Buku
 
-- Filosofi Teras  
+1.Filosofi Teras  
   Penulis: Henry Manampiring  
   Kategori: Pengembangan Diri
 
-- Principles  
+2.Principles  
   Penulis: Ray Dalio  
   Kategori: Bisnis & Leadership
 
-- Atomic Habits  
+3.Atomic Habits  
   Penulis: James Clear  
   Kategori: Self Improvement
 
-## 🚀 Fitur
+Fitur yang tersedia
 
 - Landing page perpustakaan digital
 - Tampilan kartu buku horizontal
@@ -31,12 +30,12 @@ Website ini dibuat dengan konsep tampilan modern, minimalis, dan interaktif agar
 - Desain responsif
 - Navigasi antar halaman
 
-## 🛠 Teknologi
+Teknologi yang digunakan
 
 - HTML
 - CSS
 - JavaScript
 
-## 👩‍💻 Pengembang
+👩‍💻 Pengembang
 
 Syifa Pangabean
